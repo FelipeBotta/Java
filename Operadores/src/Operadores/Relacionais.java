@@ -8,18 +8,6 @@ public class Relacionais {
 		
 		System.out.println(nome1.equals(nome2));
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		int numero1 = 1;
 		int numero2 = 2;
 		
