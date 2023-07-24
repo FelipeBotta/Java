@@ -1,5 +1,7 @@
 package ExemploFor;
 
+//em alunos2 temos esse for em string de maneira sintetizada, economizando linhas
+
 public class alunos {
 
 	public static void main(String[] args) {

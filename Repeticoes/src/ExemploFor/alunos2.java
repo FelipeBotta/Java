@@ -1,5 +1,7 @@
 package ExemploFor;
 
+//metodo semelhante ao alunos, porem otimizado
+
 public class alunos2 {
 
 	public static void main(String[] args) {
