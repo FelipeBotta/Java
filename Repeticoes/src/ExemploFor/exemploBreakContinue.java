@@ -8,7 +8,8 @@ public class exemploBreakContinue {
 			if(numero == 3)
 				continue;
 			System.out.println(numero);
-					}
+					
+		}
 		
 	}
 
