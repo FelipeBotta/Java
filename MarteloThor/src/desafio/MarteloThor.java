@@ -1,23 +1,16 @@
 package desafio;
+import java.util.ArrayList;
 import java.util.Scanner;
 public class MarteloThor {
 
-	    public static void main(String[] args){
-			try (Scanner leitor = new Scanner(System.in)) {
-				int C = leitor.nextInt();
-				
-				String nome = "";
-				
-				int N;
+	public class Problem {
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	ArrayList<String> nomes = new ArrayList();
+			
+	for(int i=0 ; i<10 ; i++)
+				nomes[] = sc.nextLine();
 
-				for (int i = 0; i < C  ; i++) {
-					nome = leitor.next();
-					N = leitor.nextInt();
-					if (nome.equals("Thor") && N >=25000) System.out.println("Y");
-					else System.out.println("N");
-				}
-			}
-	    }
-		
+		}
 	}
-
+}
