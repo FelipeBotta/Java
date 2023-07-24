@@ -1,0 +1,10 @@
+package ResultadoEscolar;
+
+public class ResultadoTernario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
