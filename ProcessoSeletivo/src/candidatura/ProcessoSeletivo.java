@@ -34,6 +34,12 @@ public class ProcessoSeletivo {
 			}
 			
 		}while(continuarTentando && tentativasRealizadas < 3);
+		
+		if(atendeu){
+			System.out.println("Conseguimos contato com " + candidato + " na " + tentativasRealizadas);
+		}else {
+			System.out.println("Nao conseguimos contato com " + candidato + " numero maximo de tentativas realizados");
+		}
 	}
 	
 	static boolean atender() {
