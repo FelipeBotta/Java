@@ -1,5 +1,10 @@
 package com.mastersoft.clinical.service;
 
-public class ExameService {
+import com.mastersoft.clinical.model.Exame;
 
+public class ExameService {
+	
+	void salvarExame(Exame exame) {
+		
+	}
 }
