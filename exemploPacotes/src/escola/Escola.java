@@ -7,6 +7,7 @@ public class Escola {
 		Aluno felipe = new Aluno();
 		
 		felipe.setNome("Felipe");
+		
 		felipe.setIdade(23);
 		
 		
