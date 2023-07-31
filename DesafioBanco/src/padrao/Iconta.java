@@ -7,6 +7,8 @@ public interface Iconta {
 	 void depoisitar(double valor);
 	
 	 void transferir(double valor, Conta contaDestino);
+	 
+	 void imprimirExtrato();
 		
 
 }
