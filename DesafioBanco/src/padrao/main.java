@@ -28,8 +28,14 @@ public class main {
 		cc1.imprimirExtrato();
 		poupanca1.imprimirExtrato();
 		
+		contas.add(poupanca1);
+		contas.add(poupanca);
+		contas.add(cc);
+		contas.add(cc1);
+		banco.setContas(contas);
 		
-		banco.listaClientes();
+		System.out.println("\nLista de Contas: ");
+		banco.listarContas();
 	}
 	
 	

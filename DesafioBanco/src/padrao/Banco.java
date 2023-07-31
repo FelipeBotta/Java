@@ -6,7 +6,7 @@ import java.util.List;
 public class Banco {
 	
 	private String nome;
-	public ArrayList<Conta> contas;
+	protected List<Conta> contas = new ArrayList<>();
 
 	public String getNome() {
 		return nome;
@@ -16,16 +16,16 @@ public class Banco {
 		this.nome = nome;
 	}
 
-	public ArrayList<Conta> getContas() {
+	public List<Conta> getContas() {
 		return contas;
 	}
 
-	public void setContas(ArrayList<Conta> contas) {
+	public void setContas(List<Conta> contas) {
 		this.contas = contas;
 	}
 	
-	public void listaClientes() {
-		contas.forEach((n) -> System.out.println(n));
+	public void listarContas() {
+		contas.forEach(System.out::println);
 	}
 	
 	}
