@@ -62,8 +62,8 @@ public abstract class Conta implements Iconta {
 	}
 	
 	protected void imprimirConta() {
-	System.out.println(String.format("Numero: %d", this.numero));
-	System.out.println(String.format("Titular: %s ",this.cliente.getNome()));
+	System.out.println(String.format("Numero: %d "+ "Titular: %s", this.numero, this.cliente.getNome()));
+
 
 		
 	}
