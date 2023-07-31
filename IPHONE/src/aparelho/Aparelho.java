@@ -8,49 +8,46 @@ public class Aparelho implements ReprodutorMusical, AparelhoTelefonico, Navegado
 
 	@Override
 	public void exibirPagina() {
-		// TODO Auto-generated method stub
-		
+		String pagina = "Google";
+		System.out.println("Exibindo a pagina selecionada: " + pagina);
 	}
 
 	@Override
 	public void adicionarNovaAba() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Adicionando nova aba");
 	}
 
 	@Override
-	public void autalizarPagina() {
-		// TODO Auto-generated method stub
+	public void atualizarPagina() {
+		System.out.println("Atualizando a pagina");
 		
 	}
 
 	@Override
 	public void ligar() {
-		// TODO Auto-generated method stub
-		
+		String contato = "Mae";
+		System.out.println("Ligando para o contato " + contato);
 	}
 
 	@Override
 	public void atender() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Atendendo ligacao");		
 	}
 
 	@Override
 	public void correioDeVoz() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Ligando para o correio de voz");
 	}
 
 	@Override
 	public void tocar() {
-		// TODO Auto-generated method stub
+		System.out.println("Play no reprodutor de musica");
 		
 	}
 
 	@Override
 	public void pausar() {
-		// TODO Auto-generated method stub
+		System.out.println("Pause no reprodutor de musica");
 		
 	}
 
