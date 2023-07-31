@@ -1,26 +1,9 @@
 package main;
 
-public class ServicoMensagem {
+public abstract class ServicoMensagem {
 	
-	public void enviarMensagem() {
-		validarConectadoInternet();
-		System.out.println("Enviando mensagem");
-		salvarHistoricoMensagem();
-		}
+	public abstract void enviarMensagem();
 	
-	public void receberMensagem() {
-		System.out.println("Recebendo mensagem");
-	}
+	public abstract void receberMensagem();
 	
-	public void validarConectadoInternet() {
-		System.out.println("Verificando conexao com a internet");
-	}
-	
-	public void salvarHistoricoMensagem() {
-		System.out.println("Salvando historico de mensagens");
-	}
-		
-
-	
-
 }

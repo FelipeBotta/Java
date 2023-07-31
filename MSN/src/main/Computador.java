@@ -3,24 +3,22 @@ package main;
 public class Computador {
 	
 	public static void main(String[] args) {
+		ServicoMensagem sm = null;
 		
-		MSNMessenger msn = new MSNMessenger();
+		String app = "tele";
 		
-		Telegram tele = new Telegram();
+		if(app.equals("msn")) {
+			sm = new MSNMessenger();
+		}
+		else if(app.equals("fb")) {
+			sm = new FacebookMessenger();
+		}
+		else if(app.equals("tele")) {
+			sm = new Telegram();
+		}
 		
-		FacebookMessenger face = new FacebookMessenger();
-		
-		msn.enviarMensagem();
-		
-		msn.receberMensagem();
-		
-		tele.enviarMensagem();
-		
-		tele.receberMensagem();
-		
-		face.enviarMensagem();
-		
-		face.receberMensagem();
+		sm.enviarMensagem();
+		sm.receberMensagem();
 	}
 
 }
