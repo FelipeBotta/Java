@@ -1,12 +1,11 @@
 package padrao;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Banco {
 	
 	private String nome;
-	protected List<Conta> contas = new ArrayList<>();
+	private List<Conta> contas;
 
 	public String getNome() {
 		return nome;
@@ -25,8 +24,10 @@ public class Banco {
 	}
 	
 	public void listarContas() {
-		contas.forEach(System.out::println);
+		contas.forEach(c -> c.imprimirConta());
+		
 	}
+
 	
 	}
 
