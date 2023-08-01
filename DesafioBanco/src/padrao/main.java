@@ -20,7 +20,7 @@ public class main {
 		
 		
 		
-		cc.depoisitar(100);
+		cc.depoisitar(200);
 		cc.transferir(100, poupanca);
 		
 		cc.imprimirExtrato();
