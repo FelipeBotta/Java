@@ -27,7 +27,8 @@ public class No<T> {
     }
 
     @Override
-    public String toString() {
+    public String
+    toString() {
         return "No{" +
                 "conteudo=" + conteudo +
                 '}';
