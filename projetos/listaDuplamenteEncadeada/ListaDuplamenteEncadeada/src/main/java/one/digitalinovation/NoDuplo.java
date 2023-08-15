@@ -34,7 +34,6 @@ public class NoDuplo<T> {
         this.noPrevio = noPrevio;
     }
 
-
     @Override
     public String toString() {
         return "NoDuplo{" +
