@@ -34,13 +34,15 @@ public class Main {
         System.out.println("Soma das temperaturas: " + soma );
         System.out.println("Media das temperaturas: " + media);
 
+        System.out.println("Meses que a temperatura ficou acima da media: ");
+
         for(int i = 0; i < semestre.size(); i++){
             if(semestre.get(i).getTemp() > media){
-                System.out.println(semestre.get(i));
+                System.out.print(semestre.get(i));
 
             }
         }
-        
+
     }
 
     }
