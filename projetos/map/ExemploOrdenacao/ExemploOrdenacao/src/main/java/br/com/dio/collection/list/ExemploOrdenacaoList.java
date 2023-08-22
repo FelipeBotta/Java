@@ -40,18 +40,7 @@ public class ExemploOrdenacaoList {
         System.out.println("--\tOrdem Nome - Cor - Idade\t--");
         Collections.sort(meusGatos, new ComparatorNomeCorIdade());
         System.out.println(meusGatos);
-
-
-
-
-
-
-
-
-
-
-
-
+        
     }
 
 }
