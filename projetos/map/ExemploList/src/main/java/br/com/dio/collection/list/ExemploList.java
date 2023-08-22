@@ -78,6 +78,26 @@ public class ExemploList {
 
         System.out.println("Confira se a lista esta vazia: " + notas.isEmpty());
 
+        System.out.println("Crie uma lista chamada notas2");
+
+        List<Double> notas2 = new ArrayList<>();
+
+        notas2.add(4.0);
+        notas2.add(6.4);
+        notas2.add(4.5);
+        notas2.add(7.9);
+
+        System.out.println(notas2);
+
+        System.out.println("Mostre a primeira nota da lista sem remove-la: " + notas2.get(0));
+
+        System.out.println("Mostre a primeira nota da lista removendo-a: " + notas2.remove(0));
+        System.out.println(notas2);
+
+
+
+
+
 
     }
 }
