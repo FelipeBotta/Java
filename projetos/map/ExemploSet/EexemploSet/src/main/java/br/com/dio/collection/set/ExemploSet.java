@@ -75,6 +75,10 @@ public class ExemploSet {
 
         System.out.println("Confira se o conjunto esta vazio: " + notas.isEmpty());
 
+        System.out.println("Confira se o conjunto2 esta vazio: " + notas2.isEmpty());
+
+        System.out.println("Confira se o conjunto3 esta vazio: " + notas3.isEmpty());
+
 
 
 
