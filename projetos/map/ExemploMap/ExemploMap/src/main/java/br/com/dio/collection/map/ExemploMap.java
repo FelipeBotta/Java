@@ -48,7 +48,7 @@ public class ExemploMap {
             }
     }
 
-        System.out.println("Exiba o modelo menos economico e seu consumo");
+        System.out.println("Exiba o modelo menos 0economico e seu consumo");
 
         Double consumoMenosEficiente = Collections.min(carrosPopulares.values());
         String modeloMenosEficiente = "";
