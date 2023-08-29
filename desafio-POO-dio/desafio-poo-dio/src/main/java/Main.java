@@ -1,4 +1,6 @@
+import br.com.dio.desafio.dominio.Bootcamp;
 import br.com.dio.desafio.dominio.Curso;
+import br.com.dio.desafio.dominio.Dev;
 import br.com.dio.desafio.dominio.Mentoria;
 
 import java.time.LocalDate;
@@ -24,9 +26,44 @@ public class Main {
         mentoria1.setData(LocalDate.now());
 
 
-        System.out.println(curso1);
-        System.out.println(curso2);
-        System.out.println(mentoria1);
+        Bootcamp bootcamp = new Bootcamp();
+        bootcamp.setNome("Bootcamp Java Develporer");
+        bootcamp.setDescricao("Descrição Bootcamp Java Developer");
+        bootcamp.getConteudos().add(curso1);
+        bootcamp.getConteudos().add(curso2);
+        bootcamp.getConteudos().add(mentoria1);
+
+
+        Dev devLuis = new Dev();
+        devLuis.setNome("Luis");
+        devLuis.inscreverBootcamp(bootcamp);
+        System.out.println("Conteudos Inscritos Luis: " + devLuis.getConteudosInscritos());
+        devLuis.progredir();
+        devLuis.progredir();
+
+        System.out.println("-");
+        System.out.println("Conteudos Inscritos Luis: " + devLuis.getConteudosInscritos());
+        System.out.println("Conteudos Concluidos Luis: " + devLuis.getConteudosConcluidos());
+        System.out.println("XP:" + devLuis.calcularTotalXp());
+
+        System.out.println("----------------------");
+
+        Dev devFelipe = new Dev();
+        devFelipe.setNome("Felipe");
+        devFelipe.inscreverBootcamp(bootcamp);
+        System.out.println("Conteudos Inscritos Felipe: " + devFelipe.getConteudosInscritos());
+        devFelipe.progredir();
+        devFelipe.progredir();
+        devFelipe.progredir();
+
+        System.out.println("-");
+        System.out.println("Conteudos Inscritos Felipe: " + devFelipe.getConteudosInscritos());
+        System.out.println("Conteudos Concluidos Felipe: " + devFelipe.getConteudosConcluidos());
+        System.out.println("XP:" + devFelipe.calcularTotalXp());
+
+
+
+
 
 
 
