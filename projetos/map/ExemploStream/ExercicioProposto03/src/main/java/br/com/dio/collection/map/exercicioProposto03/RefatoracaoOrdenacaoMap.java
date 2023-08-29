@@ -52,7 +52,7 @@ public class RefatoracaoOrdenacaoMap {
             public int compare(Map.Entry<Integer, Contato> cont1, Map.Entry<Integer, Contato> cont2) {
                 return Integer.compare(cont1.getValue().getNumero(), cont2.getValue().getNumero());
             }
-        });*/
+        });*/in addition
 
         /*Set<Map.Entry<Integer, Contato>> set = new TreeSet<>(Comparator.comparing(
                 new Function<Map.Entry<Integer, Contato>, Integer>() {
