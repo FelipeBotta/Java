@@ -44,6 +44,16 @@ public class Passagem {
     public void setValor(double valor) {
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "origem='" + origem + '\'' +
+                ", destino='" + destino + '\'' +
+                ", km=" + km +
+                ", valor=" + valor +
+                '}';
+    }
 }
 
 
