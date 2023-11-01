@@ -32,9 +32,6 @@ public class Exercucui2IOCaracter {
         pw.close();
         scan.close();
         bw.close();
-
-
-
     }
 
     public static void main(String[] args) throws IOException {
