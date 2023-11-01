@@ -19,7 +19,20 @@ public class Exercucui2IOCaracter {
 
         BufferedWriter bw = new BufferedWriter(new FileWriter(f.getName()));
 
-        
+        do{
+            bw.write(line);
+            bw.newLine();
+            bw.flush();
+            line = scan.nextLine();
+
+        } while(!(line.equalsIgnoreCase("fim")));
+
+        pw.printf("Arquivo \"%s\" foi criado com sucesso!", f.getName());
+
+        pw.close();
+        scan.close();
+        bw.close();
+
 
 
     }
