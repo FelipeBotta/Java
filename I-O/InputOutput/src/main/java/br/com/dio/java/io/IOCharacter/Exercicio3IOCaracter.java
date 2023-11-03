@@ -28,7 +28,7 @@ public class Exercicio3IOCaracter {
             line = br.readLine();
         }while(!(line == null));
 
-        System.out.printf("Arquivo \"%s\" copiado com sucesso! com o tamanho '%d'", f.getName(), f.length());
+        System.out.printf("Arquivo \"%s\" copiado com sucesso! com o tamanho '%d' \n ", f.getName(), f.length());
         System.out.printf("Arquivo \"%s\" criado com sucesso! com o tamanho '%d'", fcopy.getName(), fcopy.length());
 
 
