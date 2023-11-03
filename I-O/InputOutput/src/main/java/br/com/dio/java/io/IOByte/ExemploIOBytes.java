@@ -20,8 +20,7 @@ public class ExemploIOBytes {
         if (indexOfDash != -1) {
             nomeArquivoCopy = nomeArquivo.substring(0, indexOfDash) + "-copy2.txt";
         } else {
-            // Handle the case where "-" is not found in nomeArquivo
-            nomeArquivoCopy = nomeArquivo + "-copy2.txt"; // A default behavior or alternative naming strategy
+            nomeArquivoCopy = nomeArquivo + "-copy2.txt";
         }
 
         File fCopy = new File(nomeArquivoCopy);
@@ -39,6 +38,9 @@ public class ExemploIOBytes {
 
         bis.close();
         bos.close();
+
+        PrintStream ps = new PrintStream(System.out);
+        ps.printf("Arquivo '%s' copiado com sucesso está no diretório '%s' com '%d' bytes", fCopy.getName(), fCopy.getAbsolutePath(), fCopy.length());
 
     }
 
