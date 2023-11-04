@@ -35,11 +35,11 @@ public class ExemploIOData {
         double preco = scan.nextDouble();
         dos.writeDouble(preco);
 
-        dos.close();
-        scan.close();
-
         ps.printf("O arquivo '%s' foi criado com '%d' bytes no diretorio '%s'.\n",f.getName(), f.length(), f.getAbsolutePath());
 
+        dos.close();
+        scan.close();
+        ps.close();
 
 
     }
