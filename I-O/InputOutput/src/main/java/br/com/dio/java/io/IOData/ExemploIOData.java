@@ -38,11 +38,15 @@ public class ExemploIOData {
         dos.close();
         scan.close();
 
+        ps.printf("O arquivo '%s' foi criado com '%d' bytes no diretorio '%s'.\n",f.getName(), f.length(), f.getAbsolutePath());
+
 
 
     }
 
     public static void lerProduto(String arquivo){
+
+
 
     }
 
